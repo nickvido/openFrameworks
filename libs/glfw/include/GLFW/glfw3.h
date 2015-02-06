@@ -760,7 +760,7 @@ typedef void (* GLFWscrollfun)(GLFWwindow*,double,double);
  *  @param[in] window The window that received the event.
  *  @param[in] key The [keyboard key](@ref keys) that was pressed or released.
  *  @param[in] scancode The system-specific scancode of the key.
- *  @param[in] codepoint The locale-specific unicode of the key or -1.
+ *  @param[in] scancode The system-specific scancode of the key.
  *  @param[in] action @ref GLFW_PRESS, @ref GLFW_RELEASE or @ref GLFW_REPEAT.
  *  @param[in] mods Bit field describing which [modifier keys](@ref mods) were
  *  held down.
